@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)https://nikiforovaanastas.github.io/site2/ -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<a id="unit"></a><title>Задание 2</title>
+ </head>
+
+ <body>
+    <header>
+     <div class="all">
+      <img id="logo" src="./pics/pic2.png"  alt="Будущее наступило">
+      <a><h3><p style="font-weight: bold; color: red;">Задание под номером №2 от Никифоровой Анастасии</p></h3></a>
+     </div>
+   </header>
+    <nav class="all" id="navigation">
+     <div>
+       <ul>
+         <li><a href="./#spisok"> Список </a> </li>
+         <li><a href="./#tabl"> Таблица </a></li>
+         <li><a href="./#lesson"> Форма </a></li>
+         <li><a href="./#podval"> Подвал</a></li>
+       </ul>
+     </div>
+   </nav>
+    <div class="all">
+      <h2><a id="spisok"></a><p style="color: red;">Задания с гиперссылками</p></h2>
+    <ol>
+      <li><a href="http://example.com/">Абсолютная гиперссылка на страницу сайта</a></li>
+      <li><a href="https://example.com/">Абсолютная гиперссылка с протоколом https</a></li>
+      <li><a href="ftp://ftp.mccme.ru/pub/metapost.README"> Ссылка на файл на сервере FTP без авторизации</a></li>
+      <li><a href="ftp://user:password@example.com/ftp.mccme.ru/pub/metapost.README"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)#Implementations"> Ссылка на фрагмент страницы Википедиа Pascal</a></li>
+      <li><a href="./#unit"> Фрагмент текущего сайта</a></li>
+      <li><a href="http://example.com/about.html?id=6815e148ff1c4aee8dc7159816380a4d&amp;webmap=9cf053ea602345ddae060010c470e615">
+      Ссылка с двумя параметрами в URL</a></li>
+      <li>
+        <nav>
+          <a href="./#top1">Гиперссылка на Title</a>
+          <br>
+          <a href="./#lesson"> Ссылка к форме </a>
+        </nav>
+      </li>
+      <li><a>Cсылка без HREF</a></li>
+      <li><a href="./#">Пустой HREF</a></li>
+      <li><a href="https://moodle.kubsu.ru/mod/" rel="nofollow">Поисковики не переходят</a></li>
+      <li><!--noindex--><a href="https://moodle.kubsu.ru/mod/"> Не индексируется поисковикам</a><!--/noindex--></li>
+      <li><p>Ссылка в <a href="http://google.com/">тексте</a> абзаца</p></li>
+      <li><a href="https://moodle.kubsu.ru/mod/"><img src="https://f.vividscreen.info/soft/47f3e7006c4a8771a7a98915afc2964b/Pepsi-Design-480x640.jpg" width="480" height="640" alt="Картинка-ссылка"></a></li>
+      <li>
+	    <hr>
+        Прямоугольная область в левом верхнем угле, круглая область - в центре значка Pepsi"
+		<hr>
+        <br>
+        <img src="https://f.vividscreen.info/soft/47f3e7006c4a8771a7a98915afc2964b/Pepsi-Design-480x640.jpg" width="480" height="640" alt="Ссылки из прямоугольных и круглых областей картинки" usemap="#newimg">
+        <map name="newimg">
+          <area shape="rect" coords="0,0,100,80" alt="Левый угол" href="https://moodle.kubsu.ru/course/">
+          <area shape="circle" coords="200,350,100" alt="Центр Пепси" href="https://en.wikipedia.org/wiki/Frank_Borman">
+        </map>
+      </li>  
+	  <hr>
+      <li><a href="./file.html">Относительная на страницу в текущем каталоге</a></li>  			<!-- Условное положение в https://nikiforova_a.gitlab.io/site2/-->
+      <li><a href="./about">Относительная на страницу в каталоге about</a></li>  			    <!--Условное положение в https://nikiforova_a.gitlab.io/site2/uplvl/blogs-->
+      <li><a href="./uplvl">Относительная на страницу уровнем выше текущего</a></li>        		<!-- Условное положение в https://nikiforova_a.gitlab.io/site2/uplvl/blogs/-->
+      <li><a href="./">Относительная на страницу двумя уровнями выше</a></li>  	  			    <!-- Условное положение в https://nikiforova_a.gitlab.io/site2/uplvl/blogs/-->
+      <li><a href="./">Сокращенная на главную</a></li>  											<!-- Условное положение в https://nikiforova_a.gitlab.io/site2/uplvl/blogs/-->
+      <li><a href="./about">Сокращенная ссылку на внутреннюю</a></li> 							<!-- Условное положение в https://nikiforova_a.gitlab.io/site2/uplvl/blogs/-->
+   </ol>
+   <hr>
+   <div class="all">
+      <h2><a id="tabl"></a>Задание с таблицей</h2>
+      <table>
+       <tbody>
+          <tr>
+              <th>Столбец1</th>
+              <th>Столбец2</th>
+              <th>Столбец3</th>
+            </tr>
+            <tr>
+              <td colspan="2">Обьединение ячеек 1-2</td>
+              <td>Ячейка3</td>
+            </tr>
+            <tr>
+              <td>Ячейка1</td>
+              <td>Ячейка2</td>
+              <td>Ячейка3</td>
+            </tr>
+            <tr>
+              <td colspan="3">Объединение ячеек 1-2-3</td>
+            </tr>
+            <tr>
+              <td>Ячейка1</td>
+              <td>Ячейка2</td>
+              <td>Ячейка3</td>
+            </tr>
+       </tbody>
+     </table>
+   </div>
+   <h3><a id="lesson"></a> "Задания с формой </h3>
+   <hr>
+   <form action="http://example.com/" method="POST">
+     <label>
+       "Имя: "
+       <br>
+       <input name="field-name-1" value="Введите имя">
+     </label>
+     <br>
+	 <br>
+     <label>
+       "E-mail:"
+       <br>
+       <input name="field-email" value="введите@почту.com" type="email">
+     </label>
+     <br>
+	 <br>
+     <label>
+       "Дата рождения:"
+       <br>
+       <input name="field-date" value="2019-01-01" type="date">
+     </label>
+     <br>
+	 <br>
+     "Пол:"
+     <br>
+     <label>
+       <input type="radio" checked="checked" name="radio-group-1" value="Значение 1">
+       "Мужской"
+     </label>
+     <label>
+       <input type="radio" name="radio-group-1" value="Значение 2">
+       "Женский"
+     </label>
+     <label>
+       <input type="radio" name="radio-group-1" value="Значение 3">
+       "Странное"
+      </label>
+     <label>
+       <input type="radio" name="radio-group-1" value="Значение 4">
+       "Универсальное"
+     </label>
+     <br>
+	 <br>
+     "Количество пальцев:"
+     <br>
+     <label>
+       <input type="radio" name="radio-group-2" value="Значение 1">
+       "1"
+     </label>
+     <label>
+       <input type="radio" name="radio-group-2" value="Значение 2">
+       "2"
+     </label>
+     <label>
+       <input type="radio" name="radio-group-2" value="Значение 3">
+       "3"
+     </label>
+     <label>
+       <input type="radio" name="radio-group-2" value="Знаяение 4">
+       "4"
+     </label>
+     <label>
+       <input type="radio" name="radio-group-2" value="Значение 5">
+       "5"
+     </label>
+     <label>
+       <input type="radio" name="radio-group-2" value="Значение 6">
+       "93"
+     </label>
+	 <br>
+     <br>
+     "Сверхспособности"
+     </label>
+     <br>
+     <label>
+       <input type="checkbox" name="check-1">
+       Непробиваемые нервы
+     </label>
+     <br>
+     <label>
+       <input type="checkbox" name="check-1">
+       Походочка от бедра
+     </label>
+     <br>
+     <label>
+       <input type="checkbox" name="check-1">
+       Вечный недосып
+     </label>
+     <br>
+     <label>
+       <input type="checkbox" name="check-1">
+       Коммунист-патриот
+     </label>
+     <br>
+     <label>
+       <input type="checkbox" name="check-1">
+       Бездонный желудок
+     </label>
+     <br>
+     <label>
+       <input type="checkbox" name="check-2">
+       С контрактом ознакомлен
+     </label>
+     <br>
+	 <br>
+	 <hr>
+     <label>
+       Биография:
+       <br>
+       <textarea name="field-name-2">Напишите о себе</textarea>
+       <br>
+     </label>
+     <input type="submit" value="Отправить">
+	 <br>
+   </form>
+  </div>
+   <footer id="podval">
+     (с) Никифорова Анастасия, КубГУ 2019
+   </footer>
+ 
+<!----></body></html>

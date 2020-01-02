@@ -1,0 +1,91 @@
+body{
+	display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Geneva,sans-serif;
+    background-color:#C1B7D7;
+}
+.all{
+    width: 100%;
+    clear: both;
+}
+header{
+    width: 100%;
+    background-color: rgb (0, 139, 139);
+    color: rgb(139, 0, 0);
+    height: 100px;
+}
+header div a{
+    font-size:1.6em;
+}
+#logo{
+    float:left;
+    margin-right: 15px;
+}
+#navigation{
+    padding: 0;
+    display: block;
+    font-size: 1.5em;
+}
+#navigation li{
+    list-style-type: none;
+    display: inline-block;
+}
+#navigation li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 5px 30px;
+}
+#navigation li a:hover{
+    color: rgb(255, 0, 200);
+}
+#navigation li a:active{
+    color: rgb(7, 233, 56);
+}
+table{
+    border-collapse: collapse;
+    color: darkslateblue;
+}
+table tr,table th,table td{
+    border: 3px solid rgb(151, 2, 2);
+    padding: 10px;
+}
+table tr{
+    padding: 18px;
+}
+table tr:nth-child(odd){
+    color: rgb(0, 0, 0);
+    background-color: rgb(135, 206, 235);
+}
+table tr:nth-child(even){
+    background-color: rgb(173, 255, 47);
+}
+footer{
+    width: 100%;
+    margin: 0%;
+    background-color: lavenderblush;
+    border-top: 1px solid darkgray ;
+    color: rgb (0, 139, 139);
+    font-size: 2em;
+    margin:0 auto;
+}
+
+@media (min-device-width: 480px){
+    #navigation li{
+        display: inline-block;
+    }
+    .all{
+        width: 960px;
+        margin: 0 auto;
+    }
+    #tabl{
+        order: 1;
+    }
+    #form{
+        order: 2;
+    }
+} 
+
